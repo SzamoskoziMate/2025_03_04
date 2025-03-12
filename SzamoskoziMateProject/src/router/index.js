@@ -1,7 +1,6 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import HomeView from '../views/HomeView.vue'
 import StudentView from '@/views/StudentView.vue'
-import GradesView from '@/views/GradesView.vue'
 import AddGradeView from '@/views/AddGradesView.vue'
 
 const router = createRouter({
@@ -18,12 +17,6 @@ const router = createRouter({
       name: 'student',
       component: StudentView,
       meta:{title: 'Tanulók'}
-    },
-    {
-      path: '/grades',
-      name: 'grades',
-      component: GradesView,
-      meta:{title: 'Jegyek'}
     },
     {
       path: '/addgrade',
