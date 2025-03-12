@@ -31,7 +31,6 @@ export default {
     <hr>
     <ul class="list-group">
       <li class="list-group-item list-group-item-info">Azonosító: {{student.eduid}}</li>
-      <li class="list-group-item list-group-item-danger">Jegy: {{drink.price}}Ft</li>
     </ul>
   </section>
 </template>
